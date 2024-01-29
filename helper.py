@@ -1,5 +1,5 @@
 def decoreer(tekst=""):
-    lengte = len(tekst) + 4
+    lengte = len(tekst) + 5
     print()
     print(lengte * "*")
     print(f"* {tekst} *")
