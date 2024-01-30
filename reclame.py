@@ -14,6 +14,6 @@ print(inkomsten_totaal1([220, 430, 125, 160, 205, 90, 345]))
 def laag_en_hoog (mijn_lijst):
    hoogste = max(mijn_lijst)
    laagste = min(mijn_lijst)
-   print(hoogste,laagste)
+   print([hoogste,laagste])
 
 print(laag_en_hoog([220, 430, 125, 160, 205, 90, 345]))
