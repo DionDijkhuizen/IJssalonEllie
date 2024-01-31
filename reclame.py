@@ -21,5 +21,5 @@ print()
 import statistics
 def gemiddelde(mijn_lijst):
     mean = statistics.mean(mijn_lijst)
-    print(mean)
+    print(f"De gemiddelde inkomsten deze week zijn {mean} euro.")
 print(gemiddelde([220, 430, 125, 160, 205, 90, 345]))
